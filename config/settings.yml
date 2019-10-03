@@ -1,0 +1,15 @@
+rails_tutorial: https://www.railstutorial.org/
+rails_tutorial_help: https://www.railstutorial.org/help
+rails_tutorial_book: https://www.railstutorial.org/book
+rails_tutorial_contact: https://www.railstutorial.org/contact
+screen_casts_rails_tutorial: http://screencasts.railstutorial.org/
+ruby_on_rails: http://rubyonrails.org/
+en: en
+vi: vi
+new_rails: https://news.learnenough.com/
+michael_hartl: https://www.michaelhartl.com/
+home_pages: home
+help_pages: help
+contact_pages: contact
+about_pages: about
+user: app/views/user/new.html.erb
