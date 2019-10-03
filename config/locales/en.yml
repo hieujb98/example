@@ -1,0 +1,38 @@
+en:
+  static_pages:
+    home:
+      sample_app: Sample App
+      this_is_home_page_for: This is the home page for
+      eng: English
+      vi: Vietnamese
+      home_pages: Home Pages
+      ruby_on_rails_tutorial: Ruby on Rails Tutorial
+    help:
+      ruby_on_rails_tutorial_book: Ruby on Rails Tutorial Book
+      rails_tutorial_help_pages: Rails Tutorial Help Pages
+      get_help_on_ruby_on_rails: Get help on the Ruby on Rails Tutorial at the
+      get_help_on_this_sample_app: To get help on this sample app, see the
+      eng: English
+      vi: Vietnamese
+      help_pages: Help Pages
+    about:
+      ruby_on_rails: Ruby on Rails
+      sceen_cast_series: Screencast Series
+      rails_tutorial_book: Rails Tutorial Book
+      ruby_on_rails_tutorial: Ruby on Rails Tutorial
+      ruby_on_rails_book: Ruby on Rails Book
+      sceen_cast_series_teach_web: Screencast series to teach Web Development
+      this_is_sample_application: This is the sample application for the tutorial
+      eng: English
+      vi: Vietnamese
+      about_pages: About Pages
+    contact:
+      rails_contact: Rails Contact
+      contact_ruby_on_rails_about_app: Contact the Ruby on Rails Tutorial about the sample app at the
+      eng: English
+      vi: Vietnamese
+      contact_pages: Contact Pages
+  layouts:
+    application:
+      sample_app: Sample App
+      ruby_on_rails_tutorial: Ruby on Rails Tutorial
