@@ -1,0 +1,7 @@
+<%= link_to t(".eng"), locale: Settings.en %>
+<%= link_to t(".vi"), locale: Settings.vi %>
+<% provide :title, t(".home_pages") %>
+<h1><%= t(".sample_app") %></h1>
+<p>
+  <%= t(".this_is_home_page_for") %> <%= link_to t(".ruby_on_rails_tutorial"), Settings.rails_tutorial %>
+</p>

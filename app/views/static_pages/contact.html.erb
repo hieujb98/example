@@ -1,0 +1,7 @@
+<%= link_to t(".eng"), locale: Settings.en %>
+<%= link_to t(".vi"), locale: Settings.vi %>
+<% provide :title, t(".contact_pages") %>
+<h1><%= t(".contact_pages") %></h1>
+<p>
+  <%= t(".contact_ruby_on_rails_about_app") %> <%= link_to t(".rails_contact"), Settings.rails_tutorial_contact %>
+</p>
