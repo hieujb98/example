@@ -7,6 +7,7 @@ vi:
       vi: Tiếng Việt
       home_pages: Trang chủ
       ruby_on_rails_tutorial: Ruby on Rails Tutorial
+      signup: Đăng kí ngay!
     help:
       ruby_on_rails_tutorial_book: Sách Ruby on Rails Tutorial
       rails_tutorial_help_pages: Trang hỗ trợ Rails Tutorial
@@ -34,5 +35,29 @@ vi:
       contact_pages: Liên hệ
   layouts:
     application:
+      ruby_on_rails_sample_app: Ứng dụng Ruby on Rails
+      sample_app: Ứng dụng
+      ruby_on_rails_tutorial: Ứng dụng Ruby
+      eng: Tiếng Anh
+      vi: Tiếng Việt
+      home_pages: Trang chủ
+      help_pages: Trợ giúp
+      login: Đăng nhập
+    header:
+      home_pages: Trang chủ
+      help_pages: Giúp đỡ
+      login: Đăng nhập
+      eng: Tiếng Anh
+      vi: Tiếng Việt
+      sample_app: Ứng dụng
+    footer:
+      about_pages: Về chúng tôi
+      contact_pages: Liên hệ
+      news: Tin tức
+      ruby_on_rails_tutorial: Ruby on Rails Tutorial
+  user:
+    new:
+      user_new: Người dùng
+      find_me_in: Tìm tôi tại
       sample_app: Ứng dụng
       ruby_on_rails_tutorial: Ứng dụng Ruby

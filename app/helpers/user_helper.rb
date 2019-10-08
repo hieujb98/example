@@ -1,4 +1,4 @@
-module ApplicationHelper
+module UserHelper
   def full_title page_title
     base_title = t(".ruby_on_rails_sample_app")
     if page_title.empty?
