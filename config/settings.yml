@@ -12,3 +12,7 @@ contact_pages: contact
 about_pages: about
 en: en
 vi: vi
+max50: 50
+max255: 255
+max6: 6
+stringregex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
