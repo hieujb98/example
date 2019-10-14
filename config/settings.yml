@@ -4,7 +4,7 @@ rails_tutorial_book: https://www.railstutorial.org/book
 rails_tutorial_contact: https://www.railstutorial.org/contact
 screen_casts_rails_tutorial: http://screencasts.railstutorial.org/
 ruby_on_rails: http://rubyonrails.org/
-new_rails: https://new.railstutorial.org/
+new_rails: https://news.learnenough.com/
 michael_hartl: https://www.michaelhartl.com/
 home_pages: home
 help_pages: help
@@ -15,4 +15,5 @@ vi: vi
 max50: 50
 max255: 255
 max6: 6
-stringregex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+stringregex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+s80: 80
