@@ -7,6 +7,7 @@ vi:
       vi: Tiếng Việt
       home_pages: Trang chủ
       ruby_on_rails_tutorial: Ruby on Rails Tutorial
+      sign_up: Đăng kí
     help:
       ruby_on_rails_tutorial_book: Sách Ruby on Rails Tutorial
       rails_tutorial_help_pages: Trang hỗ trợ Rails Tutorial
@@ -49,6 +50,12 @@ vi:
       eng: Tiếng Anh
       vi: Tiếng Việt
       sample_app: Ứng dụng
+      users: Người dùng
+      account: Tài khoản
+      profile: Thông tin tài khoản
+      settings: Cài đặt
+      logout: Đăng xuất
+      login: Đăng nhập
     footer:
       about_pages: Về chúng tôi
       contact_pages: Liên hệ
@@ -58,3 +65,26 @@ vi:
     new:
       user_new: Người dùng
       find_me_in: Tìm tôi tại
+      sign_up: Đăng kí
+      create_my_account: Tạo tài khoản
+      name: Tài khoản
+      email: Email
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+    create:
+      welcome: Chào mừng đến với ứng dụng!!!
+      warning: Thông tin không hợp lệ
+    notfound:
+      notfound: Người dùng không tồn tại
+  the_form_contains: Mẫu đăng kí có chứa
+  error:
+    one: 1 lỗi
+    other: "%{count} lỗi"
+  sessions:
+    notification: Email hoặc mật khẩu không tồn tại
+    new:
+      login: Đăng nhập
+      email: Email
+      password: Mật khẩu
+      sign_up_now: Đăng kí ngay!
+      new_user: Chưa có tài khoản?

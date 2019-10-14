@@ -7,6 +7,7 @@ en:
       vi: Vietnamese
       home_pages: Home Pages
       ruby_on_rails_tutorial: Ruby on Rails Tutorial
+      sign_up: Sign up
     help:
       ruby_on_rails_tutorial_book: Ruby on Rails Tutorial Book
       rails_tutorial_help_pages: Rails Tutorial Help Pages
@@ -49,6 +50,12 @@ en:
       eng: English
       vi: Vietnamese
       sample_app: Sample App
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Logout
+      login: Login
     footer:
       about_pages: About
       contact_pages: Contact
@@ -58,3 +65,26 @@ en:
     new:
       user_new: Users
       find_me_in: Find me in
+      sign_up: Sign up
+      create_my_account: Create my account
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password Confirmation
+    create:
+      welcome: Welcome to Sample App!!!
+      warning: Invalid Information
+    notfound:
+      notfound: User doesn't exist
+  the_form_contains: The form contains
+  error:
+    one: 1 error
+    other: "%{count} errors"
+  sessions:
+    notification: Invalid email/password combination
+    new:
+      login: Login
+      email: Email
+      password: Password
+      sign_up_now: Sign up now!
+      new_user: New user?
