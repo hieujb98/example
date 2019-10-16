@@ -50,6 +50,12 @@ en:
       eng: English
       vi: Vietnamese
       sample_app: Sample App
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Logout
+      login: Login
     footer:
       about_pages: About
       contact_pages: Contact
@@ -74,3 +80,11 @@ en:
   error:
     one: 1 error
     other: "%{count} errors"
+  sessions:
+    notification: Invalid email/password combination
+    new:
+      login: Login
+      email: Email
+      password: Password
+      sign_up_now: Sign up now!
+      new_user: New user?
