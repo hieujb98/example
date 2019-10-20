@@ -4,6 +4,8 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.6.3"
 
 gem "bcrypt", "3.1.13"
+gem "faker", "2.1.2"
+gem "kaminari"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"

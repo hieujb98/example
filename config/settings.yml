@@ -17,3 +17,5 @@ max255: 255
 max6: 6
 stringregex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 s80: 80
+s50: 50
+n15: 15
