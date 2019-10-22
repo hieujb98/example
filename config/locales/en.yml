@@ -67,15 +67,34 @@ en:
       find_me_in: Find me in
       sign_up: Sign up
       create_my_account: Create my account
-      name: Name
-      email: Email
-      password: Password
-      confirmation: Password Confirmation
     create:
       welcome: Welcome to Sample App!!!
       warning: Invalid Information
     notfound:
       notfound: User doesn't exist
+    edit:
+      edit_user: Edit user
+      update_your_profile: Update your profile
+      save_changes: Save changes
+      change: Change
+    form:
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password confirmation
+    update:
+      success: Update your profile success
+      error: Update error!
+    please_login: Please login
+    user_not_found: User not found!
+    destroy: User deleted
+    index:
+      all_users: All users
+      delete_success: Delete success
+      delete_error: Delete error
+    user:
+      delete: delete
+      you_sure: You sure?
   the_form_contains: The form contains
   error:
     one: 1 error

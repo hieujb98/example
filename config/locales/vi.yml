@@ -67,15 +67,34 @@ vi:
       find_me_in: Tìm tôi tại
       sign_up: Đăng kí
       create_my_account: Tạo tài khoản
-      name: Tài khoản
-      email: Email
-      password: Mật khẩu
-      confirmation: Nhập lại mật khẩu
     create:
       welcome: Chào mừng đến với ứng dụng!!!
       warning: Thông tin không hợp lệ
     notfound:
       notfound: Người dùng không tồn tại
+    edit:
+      edit_user: Chỉnh sửa người dùng
+      update_your_profile: Cập nhật thông tin cá nhân
+      save_changes: Lưu thay đổi
+      change: Thay đổi
+    form:
+      name: Tài khoản
+      email: Email
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+    update:
+      success: Cập nhật tài khoản thành công!!!
+      error: Cập nhật không thành công!
+    please_login: Bạn chưa đăng nhập
+    user_not_found: Không tìm thấy người dùng!
+    destroy: Đã xóa người dùng
+    index:
+      all_users: Tất cả người dùng
+      delete_success: Xóa thành công
+      delete_error: Xóa thất bại
+    user:
+      delete: xóa
+      you_sure: Bạn có chắc chắn muốn xóa?
   the_form_contains: Mẫu đăng kí có chứa
   error:
     one: 1 lỗi
