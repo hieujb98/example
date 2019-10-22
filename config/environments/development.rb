@@ -28,6 +28,29 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  host = "localhost:3000"
+
+  config.action_mailer.default_url_options = { host: host, protocol: "http" }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.default_options = {from: 'no-reply@example.com'}
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",
+    port: 587,
+    user_name: ENV["GMAIL_NAME"],
+    password: ENV["GMAIL_PASS"],
+    authentication: "plain",
+    enable_starttls_auto: true
+  }
+
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :test
+  host = 'example.com' # Don't use this literally; use your local dev host instead
+  # Use this on the cloud IDE.
+  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
+  # Use this if developing on localhost.
+  # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 

@@ -95,11 +95,23 @@ en:
     user:
       delete: delete
       you_sure: You sure?
+    check_email: Please check your email to activate your account.
+  user_mailer:
+    account:
+      activation: Account activation
+    account_activation:
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      hi: Hi
+      sample_app: Sample app
+      activate: Activate
+    activated: Account activated!
+    invalid_activation: Invalid activation link
   the_form_contains: The form contains
   error:
     one: 1 error
     other: "%{count} errors"
   sessions:
+    activated_check_email: Account not activated. Check your email for the activation link!
     notification: Invalid email/password combination
     new:
       login: Login
