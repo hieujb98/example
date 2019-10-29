@@ -95,11 +95,24 @@ vi:
     user:
       delete: xóa
       you_sure: Bạn có chắc chắn muốn xóa?
+    check_email: Hãy check email để kích hoạt tài khoản của bạn.
+  user_mailer:
+    account:
+      activation: Kích hoạt tài khoản
+    account_activation:
+      welcome: Chào mừng bạn đến với ứng dụng! Bấm vào link bên dưới để kích hoạt tài khoản của bạn
+      hi: Xin chào
+      sample_app: Ứng dụng
+      activate: Kích hoạt
+    activated: Tài khoản đã được kích hoạt thành công!
+    invalid_activation: Kích hoạt tài khoản thất bại
   the_form_contains: Mẫu đăng kí có chứa
   error:
     one: 1 lỗi
     other: "%{count} lỗi"
   sessions:
+    activated: Tài khoản chưa được kích hoạt.
+    check_email: Kiểm tra email để kích hoạt tài khoản.
     notification: Email hoặc mật khẩu không tồn tại
     new:
       login: Đăng nhập
