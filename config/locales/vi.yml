@@ -97,8 +97,15 @@ vi:
       you_sure: Bạn có chắc chắn muốn xóa?
     check_email: Hãy check email để kích hoạt tài khoản của bạn.
   user_mailer:
+    password_reset:
+      reset_password: Đặt lại mật khẩu
+      pass_reset: Đặt lại mật khẩu
+      to_reset_password: Để đặt lại mật khẩu của bạn hãy bấm vào đường dẫn phía dưới
+      this_link: Đường dẫn này sẽ bị vô hiệu sau 2 tiếng.
+      if_you: Nếu bạn không yêu cầu thay đổi mật khẩu, hãy bỏ qua email này và mật khẩu của bạn sẽ như cũ.
     account:
       activation: Kích hoạt tài khoản
+      password_reset: Đặt lại mật khẩu
     account_activation:
       welcome: Chào mừng bạn đến với ứng dụng! Bấm vào link bên dưới để kích hoạt tài khoản của bạn
       hi: Xin chào
@@ -121,3 +128,21 @@ vi:
       sign_up_now: Đăng kí ngay!
       new_user: Chưa có tài khoản?
       remember_me_on_this_computer: Lưu tài khoản
+      forgot_password: (quên mật khẩu)
+      remember_me: Lưu tài khoản của tôi
+  password_resets:
+    email_send_with: Email được gửi kèm theo chỉ dẫn thay đổi mật khẩu
+    email_notfound: Không tìm thấy địa chỉ email
+    cant_empty: không được để trống
+    password_reset_done: Mật khẩu đã được thay đổi.
+    password_reset_expired: Mật khẩu thay đổi đã hết hạn.
+    user_not_found: Không tìm thấy người dùng
+    new:
+      forgot_password: Quên mật khẩu
+      submit: Xác nhận
+      email: Email
+    edit:
+      reset_password: Đặt lại mật khẩu
+      update_password: Cập nhật mật khẩu
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
