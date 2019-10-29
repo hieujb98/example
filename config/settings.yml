@@ -21,3 +21,12 @@ s50: 50
 n15: 15
 n1: 1
 n2: 2
+m140: 140
+n50: 50
+n10: 10
+n5: 5
+n0: 0
+n1024: 1024
+n500: 500
+image_type: "image/ipeg, image/gif, image/png"
+content_t: "%w(image/jpeg image/gif image/png)"

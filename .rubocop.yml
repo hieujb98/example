@@ -20,6 +20,10 @@ AllCops:
     - 'config/**/*'
     - 'app/views/**/*'
     - 'app/assets/**/*'
+    - 'app/javascript/**/*'
+    - '.idea/**/*'
+    - '**/.DS_Store'
+    - '**/.keep'
 
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
@@ -63,7 +67,7 @@ Layout/CaseIndentation:
   IndentOneStep: false
 
 Style/ClassAndModuleChildren:
-  
+
   EnforcedStyle: nested
   SupportedStyles:
     - nested
@@ -226,8 +230,8 @@ Naming/PredicateName:
 Style/RaiseArgs:
   EnforcedStyle: exploded
   SupportedStyles:
-    - compact 
-    - exploded 
+    - compact
+    - exploded
 
 
 Style/RedundantReturn:
