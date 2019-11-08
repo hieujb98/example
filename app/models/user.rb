@@ -5,14 +5,17 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  scope :order_created_at, ->{order created_at: :desc}
+
   validates :name, presence: true, length: {maximum: Settings.max50}
   validates :email, presence: true, length: {maximum: Settings.max255},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: true
   validates :password, presence: true, length: {maximum: Settings.max6}
 
   has_secure_password
+  has_many :microposts, dependent: :destroy
 
-  scope :activated, -> {where activated: true}
+  scope :activated, ->{where activated: true}
 
   class << self
     def digest string
@@ -34,6 +37,7 @@ class User < ApplicationRecord
   def authenticated? attribute, token
     digest = send("#{attribute}_digest")
     return false unless digest
+
     BCrypt::Password.new(digest).is_password?(token)
   end
 

@@ -66,3 +66,10 @@ Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
   Enabled: false
 
+Rails/HelperInstanceVariable:
+  Description: "Do not use instance variables in helpers."
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Description: "Avoid multi-line ternary operators, use if or unless instead."
+  Enabled: false

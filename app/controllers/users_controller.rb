@@ -12,6 +12,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.n10
+  end
+
   def edit; end
 
   def create
@@ -48,18 +52,21 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit :name, :email, :password, :password_confirmation
+    params.require(:user).permit :name, :email, :password,
+                                 :password_confirmation
   end
 
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
+
     flash[:danger] = t "users.user_not_found"
     redirect_to root_url
   end
 
   def logged_in_user
     return if logged_in?
+
     store_location
     flash[:danger] = t "users.please_login"
     redirect_to login_url
@@ -70,6 +77,6 @@ class UsersController < ApplicationController
   end
 
   def admin_user
-    redirect_to(root_url) unless current_user.admin?
+    redirect_to root_url unless current_user.admin?
   end
 end

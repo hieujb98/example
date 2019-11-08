@@ -8,6 +8,7 @@ vi:
       home_pages: Trang chủ
       ruby_on_rails_tutorial: Ruby on Rails Tutorial
       sign_up: Đăng kí
+      micropost_feed: Danh sách bài đăng
     help:
       ruby_on_rails_tutorial_book: Sách Ruby on Rails Tutorial
       rails_tutorial_help_pages: Trang hỗ trợ Rails Tutorial
@@ -146,3 +147,23 @@ vi:
       update_password: Cập nhật mật khẩu
       password: Mật khẩu
       password_confirmation: Nhập lại mật khẩu
+  microposts:
+    deleted_failed: Xóa thất bại
+    must_be: theo tiêu chuẩn định dạng ảnh cho phép
+    less_than: phải nhỏ hơn 5MB
+    deleted: Bài đăng đã được xóa
+    posted: Đã được đăng
+    ago: trước.
+    created: Đã đăng bài thành công!
+    micropost:
+      delete: xóa
+      you_sure: Bạn chắc chắn chứ?
+  shared:
+    micropost_form:
+      compose: Trạng thái...
+      post: Đăng
+      change: thay đổi
+      maximum_file: Kích thước tập tin cho phép lớn nhất là 5MB. Hãy chọn tập tin có kích thước nhỏ hơn.
+    user_info:
+      view_my_profile: thông tin của tôi
+      micropost: bài đăng

@@ -8,6 +8,7 @@ en:
       home_pages: Home Pages
       ruby_on_rails_tutorial: Ruby on Rails Tutorial
       sign_up: Sign up
+      micropost_feed: Micropost feed
     help:
       ruby_on_rails_tutorial_book: Ruby on Rails Tutorial Book
       rails_tutorial_help_pages: Rails Tutorial Help Pages
@@ -102,8 +103,7 @@ en:
       pass_reset: Password reset
       to_reset_password: To reset your password click the link below
       this_link: This link will expire in two hours.
-      if_you: If you did not request your password to be reset, please ignore this email and
-your password will stay as it is.
+      if_you: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
     account:
       activation: Account activation
       password_reset: Password reset
@@ -146,3 +146,23 @@ your password will stay as it is.
       update_password: Update password
       password: Password
       password_confirmation: Confirmation
+  microposts:
+    deleted_failed: Deleted failed
+    must_be: must be a valid image format
+    less_than: should be less than 5MB
+    deleted: Micropost deleted
+    posted: Posted
+    ago: ago.
+    created: Micropost created!
+    micropost:
+      delete: delete
+      you_sure: You sure?
+  shared:
+    micropost_form:
+      compose: Compose new micropost...
+      post: Post
+      change: change
+      maximum_file: Maximum file size is 5MB. Please choose a smaller file.
+    user_info:
+      view_my_profile: view my profile
+      micropost: micropost
